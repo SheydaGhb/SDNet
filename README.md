@@ -8,8 +8,8 @@
  + **Structure scheme of proposed SDNet (SConv - stride convolution , TConv - transpose convolution)**
 ![pic1](https://user-images.githubusercontent.com/31028574/132021861-0cbd4ba0-31d4-46c9-9ede-79c67e496010.PNG)
                                  
-link to test set
-link to the pre-trained model 
+download both color and gray scale test set [here](https://drive.google.com/file/d/1n1fjtjQd7tvuDO7M4hSaaf6d7W2xpHSR/view?usp=sharing)
+Here is the to [pre-trained gary scale model](https://drive.google.com/file/d/1BUkK6Ul1supB_mcjfxeUVxWtZ6VBdjLk/view?usp=sharing) and [pre-trained color model](https://drive.google.com/file/d/1na7CvWsk5CrmSHWbG3HQTJEcRplaOFgQ/view?usp=sharing)
 
 ### Requirements ###
 MATLAB 2021
@@ -22,3 +22,7 @@ run ``` demo.m ```
 |![baboon_noisy_6_2](https://user-images.githubusercontent.com/31028574/132094411-fdd4e76a-9b11-4821-b7a8-f340b4ecc266.png) | ![sigma_map_6_2](https://user-images.githubusercontent.com/31028574/132094440-2c123b46-c18c-4c3f-8b8d-71d1bcbd3972.png) |![true_sigma_6_2](https://user-images.githubusercontent.com/31028574/132094966-a9f01d95-790e-42fd-9df3-37eb9eab8f2a.png)|
 |:---:|:---:|:---:|
 |<i>(a) Noisy image with noise level = 30 (second noise model) </i>|<i>(b) Estimated sigma map </i>|<i>(c) True sigma map </i>|
+
+
+
+
