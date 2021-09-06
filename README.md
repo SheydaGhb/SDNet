@@ -16,14 +16,12 @@ Here is the link to pre-trained SDNet modles [pre-trained gary scale](https://dr
 MATLAB 2021
 
 ### Tetsing ###
-For estimating  sigma-map of a single noisy image
-
-run ``` demo.m ``` 
+For estimating  sigma-map of a single noisy image run ``` demo.m ``` 
 
 ### Result of testing ###
 
 ![estimated sigma-maps](https://user-images.githubusercontent.com/31028574/132257177-94a00af8-fca9-424e-ac4f-8a9eafddfe33.PNG)
-
+<p align="center">
 <i> Ground truth sigma-map and results of its estimation by compared methods </i>
-
+</p>
 
