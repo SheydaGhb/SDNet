@@ -11,9 +11,8 @@
   ### Network structure ###
   Run ``` sdnet_rgb_structure.m ```  and ``` sdnet_gray_structure.m ``` for observing structure of network in detail and layers. <i> AnalyzeNetwork </i> tool of MATLAB can be used for furthur analysis.
         
-Download color and gray scale test set from [here](https://drive.google.com/file/d/1n1fjtjQd7tvuDO7M4hSaaf6d7W2xpHSR/view?usp=sharing)
-
-There are two models available one for estimating sigma-map of grayscale images and the other one for rgb color images. Here is the link to pre-trained SDNet models [pre-trained gary scale](https://drive.google.com/file/d/1BUkK6Ul1supB_mcjfxeUVxWtZ6VBdjLk/view?usp=sharing) and [pre-trained color](https://drive.google.com/file/d/1na7CvWsk5CrmSHWbG3HQTJEcRplaOFgQ/view?usp=sharing)
+Download color and gray scale test set from 
+There are two models available one for estimating sigma-map of grayscale images and the other one for rgb color images. Here is the link to pre-trained SDNet models [pre-trained gary scale] and [pre-trained color]
 
 ### Requirements ###
 MATLAB 2021
