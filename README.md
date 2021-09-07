@@ -9,7 +9,7 @@
 ![pic1](https://user-images.githubusercontent.com/31028574/132021861-0cbd4ba0-31d4-46c9-9ede-79c67e496010.PNG)
         
   ### Network structure ###
-  Run `` sdnet_rgb_structure.m ```  and `` sdnet_gray_structure.m ``` for observing structure of network in detail and layers. <i>AnalyzeNetwork<i> tool of MATLAB can be used for furthur analysis.
+  Run ``` sdnet_rgb_structure.m ```  and ``` sdnet_gray_structure.m ``` for observing structure of network in detail and layers. <i> AnalyzeNetwork </i> tool of MATLAB can be used for furthur analysis.
         
 Download color and gray scale test set from [here](https://drive.google.com/file/d/1n1fjtjQd7tvuDO7M4hSaaf6d7W2xpHSR/view?usp=sharing)
 
