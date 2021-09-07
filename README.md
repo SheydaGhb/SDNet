@@ -10,18 +10,18 @@
                                  
 Download both color and gray scale test set [here](https://drive.google.com/file/d/1n1fjtjQd7tvuDO7M4hSaaf6d7W2xpHSR/view?usp=sharing)
 
-Here is the link to pre-trained SDNet modles [pre-trained gary scale](https://drive.google.com/file/d/1BUkK6Ul1supB_mcjfxeUVxWtZ6VBdjLk/view?usp=sharing) and [pre-trained color](https://drive.google.com/file/d/1na7CvWsk5CrmSHWbG3HQTJEcRplaOFgQ/view?usp=sharing)
+Here is the link to pre-trained SDNet models [pre-trained gary scale](https://drive.google.com/file/d/1BUkK6Ul1supB_mcjfxeUVxWtZ6VBdjLk/view?usp=sharing) and [pre-trained color](https://drive.google.com/file/d/1na7CvWsk5CrmSHWbG3HQTJEcRplaOFgQ/view?usp=sharing)
 
 ### Requirements ###
 MATLAB 2021
 
 ### Tetsing ###
-For estimating  sigma-map of a single noisy image run ``` demo.m ``` 
+For estimating  sigma-map of a single noisy image run ``` Demo.m ``` 
 
 ### Result of testing ###
 
 ![estimated sigma-maps](https://user-images.githubusercontent.com/31028574/132257177-94a00af8-fca9-424e-ac4f-8a9eafddfe33.PNG)
 <p align="center">
-<i> Ground truth sigma-map and results of its estimation by compared methods </i>
+<i> Ground truth sigma-map and results of its estimation by compared methods,SDNet estimated sigma-map has the smallest realtive error </i>
 </p>
 
