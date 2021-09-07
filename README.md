@@ -26,11 +26,11 @@ For estimating  sigma-map of a single noisy image run ``` Demo.m ```
 </p>
 
 <p align="center">
-![table_relative_errors](https://user-images.githubusercontent.com/31028574/132303443-5dedf116-d2bb-46b8-a8e2-4fbd3f126855.PNG)
+<![table_relative_errors](https://user-images.githubusercontent.com/31028574/132303443-5dedf116-d2bb-46b8-a8e2-4fbd3f126855.PNG)>
 </p>
 
 <p align="center">
-<i> Relative estimation error ε_<sub>m</sub> of sigma-maps, σ_<sub>m</sub> is mean standard deviation of sigma-map </i>
+<i> Relative estimation error ε<sub>m</sub> of sigma-maps, σ<sub>m</sub> is mean standard deviation of sigma-map </i>
 </p>
 
   
