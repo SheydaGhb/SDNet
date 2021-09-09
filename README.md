@@ -30,7 +30,7 @@ For estimating  sigma-map of a single noisy image run ``` Demo.m ```
 </p>
 
 
-![results](https://user-images.githubusercontent.com/31028574/132587303-b2a153d9-ee20-4046-bd0e-39e816a83c61.PNG)
+![results](https://user-images.githubusercontent.com/31028574/132629996-10e1ef4f-c3ff-4b1f-9be5-ecb421403529.PNG)
 <p align="center">
-<i> Ground truth sigma-maps for σ<sub>m</sub> = 5,7,10 and results of estimations by compared methods,SDNet estimated sigma-map has the smallest relative error </i>
+<i> Ground truth sigma-maps for σ<sub>av</sub> = 5,7,10 and results of estimations by compared methods, SDNet estimated sigma-map has the smallest relative error </i>
 </p>
