@@ -22,15 +22,13 @@ For estimating  sigma-map of a single noisy image run ``` Demo.m ```
 
 ### Result of testing ###
 
-![results](https://user-images.githubusercontent.com/31028574/132587303-b2a153d9-ee20-4046-bd0e-39e816a83c61.PNG)
-<p align="center">
-<i> Ground truth sigma-maps for σ<sub>m</sub> = 5,7,10 and results of estimations by compared methods,SDNet estimated sigma-map has the smallest relative error </i>
-</p>
-
-
-![table_relative_errors](https://user-images.githubusercontent.com/31028574/132303443-5dedf116-d2bb-46b8-a8e2-4fbd3f126855.PNG)
+![table2](https://user-images.githubusercontent.com/31028574/132628960-887a799a-be03-4855-8f37-dd4e25240eb8.PNG)
 <p align="center">
 <i> Relative estimation error ε<sub>m</sub> of sigma-maps, σ<sub>m</sub> is mean standard deviation of sigma-map </i>
 </p>
 
-  
+
+![results](https://user-images.githubusercontent.com/31028574/132587303-b2a153d9-ee20-4046-bd0e-39e816a83c61.PNG)
+<p align="center">
+<i> Ground truth sigma-maps for σ<sub>m</sub> = 5,7,10 and results of estimations by compared methods,SDNet estimated sigma-map has the smallest relative error </i>
+</p>
