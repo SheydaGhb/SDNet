@@ -17,9 +17,9 @@ There are two models available one for estimating sigma-map of grayscale images 
 MATLAB 2021
 
 ### Tetsing ###
-For estimating  sigma-map of a single noisy image run ``` Demo.m ``` 
-
-You can find mat files of ground truth test images in <i>testset_rgb</i> and <i>testset_grayscale</i> folders  
+For estimating  sigma-map of a single noisy image run ``` Demo.m ``` <br />
+You can find mat files of ground truth test images in <i>testset_rgb</i> and <i>testset_grayscale</i> folders <br />
+Groud truth sigma maps can be found in <i>ground_true_sigma_map</i>. you can use ground truth sigma maps to create noisy images. see the example in  ``` Demo.m ```
 
 ## Sigma-map estimation results ##
 
@@ -76,12 +76,8 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 <i> Flow chart of denoising by sigma-map and BM3D  </i>
 </p>
  
-[1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.
-
-[2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.
-
-[3] S. G. Bahncmiri, M. Ponomarenko, and K. Egiazarian, “Deep convolutional autoencoder for estimation of nonstationary noise in images,” in 2019 8th European Workshop on Visual Information Processing (EUVIP). IEEE, 2019, pp. 238–243
-
-[4] Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.
-
+[1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.<br />
+[2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.<br />
+[3] S. G. Bahncmiri, M. Ponomarenko, and K. Egiazarian, “Deep convolutional autoencoder for estimation of nonstationary noise in images,” in 2019 8th European Workshop on Visual Information Processing (EUVIP). IEEE, 2019, pp. 238–243 <br />
+[4] Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.<br />
 [5] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007
