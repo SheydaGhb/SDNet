@@ -40,7 +40,7 @@ LADCT[1] and RHDCT[2] are conventional methods that are based on transform coeff
 <i> Three types of sigma-maps with σ<sub>av</sub> = 5,7,10 and results of estimations by compared methods, SDNet estimated sigma-map shows the smallest relative error in all cases </i>
 </p>
 
-### AWGN sigma estimation results ###
+## AWGN sigma estimation results ##
 SDNet also is used for estimating AWGN sigma value by calculating median of the sigm-map. we have provided results and examples of this task in below.
 
  <p align="center">
@@ -62,11 +62,11 @@ SDNet also is used for estimating AWGN sigma value by calculating median of the 
 </p>
 
 
-### Denoising  examples ###
+## Denoising  examples ##
 
 
 
-### BM3D denoising example ###
+## BM3D denoising example ##
 Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform denoising, e.g. BM3D[5]. For denoising, we divide noisy image to sigma map and result image is called equalized image, which is believed to have AWGN distbution. Therefore, BM3D can easily remove equalized image noise and after de-equalization, denoised image is achieved. 
 
 ![BM3D_chain_pic](https://user-images.githubusercontent.com/31028574/132998898-b52e67c3-5fd5-44e6-9d3e-890df3556d94.PNG)
@@ -76,7 +76,11 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 </p>
  
 [1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.
+
 [2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.
+
 [3] S. G. Bahncmiri, M. Ponomarenko, and K. Egiazarian, “Deep convolutional autoencoder for estimation of nonstationary noise in images,” in 2019 8th European Workshop on Visual Information Processing (EUVIP). IEEE, 2019, pp. 238–243
+
 [4]. Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.
+
 [5]K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007
