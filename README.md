@@ -18,6 +18,7 @@ MATLAB 2021
 
 ### Tetsing ###
 For estimating  sigma-map of a single noisy image run ``` Demo.m ``` 
+
 You can find mat files of ground truth test images in <i>testset_rgb</i> and <i>testset_grayscale</i> folders  
 
 ## Sigma-map estimation results ##
@@ -81,6 +82,6 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 
 [3] S. G. Bahncmiri, M. Ponomarenko, and K. Egiazarian, “Deep convolutional autoencoder for estimation of nonstationary noise in images,” in 2019 8th European Workshop on Visual Information Processing (EUVIP). IEEE, 2019, pp. 238–243
 
-[4]. Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.
+[4] Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.
 
-[5]K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007
+[5] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007
