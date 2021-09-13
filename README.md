@@ -70,8 +70,10 @@ In addition to ground truth sigma-maps, we have created random sigma-maps to tes
 ![process_chain](https://user-images.githubusercontent.com/31028574/133067025-e44a2c37-4108-418d-be57-b1793ec9e8d3.PNG)
  <p align="center">
 <i> Flow chart of denoising by true and estimated sigma-map and DRUNet. σ<sub>av</sub> = 15   </i>
-</p> <br />
-![process_chain2](https://user-images.githubusercontent.com/31028574/133067034-c900f809-4658-482b-841f-3415fabc9655.PNG)
+</p>
+
+![process_chain2](https://user-images.githubusercontent.com/31028574/133067663-3ce3ab39-9431-4edd-aeb9-16f08a519d13.PNG)
+
  <p align="center">
 <i> Flow chart of denoising by true and estimated sigma-map and DRUNet. σ<sub>av</sub> = 30  </i>
 </p>
