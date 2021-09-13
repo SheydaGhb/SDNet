@@ -19,7 +19,7 @@ MATLAB 2021
 ### Tetsing ###
 For estimating  sigma-map of a single noisy image run ``` Demo.m ``` <br />
 You can find mat files of ground truth test images in <i>testset_rgb</i> and <i>testset_grayscale</i> folders <br />
-Groud truth sigma maps can be found in <i>ground_true_sigma_map</i>. you can use ground truth sigma maps to create noisy images. see the example in  ``` Demo.m ```
+Groud truth sigma maps can be found in <i>ground_true_sigma_map</i>. you can use ground truth sigma maps to create noisy images. See the example in  ``` Demo.m ```
 
 ## Sigma-map estimation results ##
 
@@ -42,15 +42,17 @@ LADCT[1] and RHDCT[2] are conventional methods that are based on transform coeff
 </p>
 
 ## AWGN sigma estimation results ##
-SDNet also is used for estimating AWGN sigma value by calculating median of the sigm-map. we have provided results and examples of this task in below.
+SDNet also is used for estimating AWGN sigma value by calculating median of the sigm-map. we have provided relative error ε of AWGN sigma estimation and examples of this task in below. Results are reported both in non-clipped and clipped noise cases </i>
 
  <p align="center">
-<i> Relative error ε of AWGN sigma estimation. Results are reported both in non-clipped and clipped noise cases </i>
+<i>Relative error ε of AWGN sigma estimation for non-clipped noise </i>
 </p>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/31028574/132997632-9d45c425-a10b-4922-a499-11dce7a11311.PNG" alt = "awgn_table_nonclip"/>
+</p><br />
+ <p align="center"> 
+<i>Relative error ε of AWGN sigma estimation for clipped noise </i>
 </p>
-
 <p align="center">
  <img src="https://user-images.githubusercontent.com/31028574/132997672-c1d94b6e-8119-4851-8cce-b0508b9a4793.PNG" alt = "awgn_table_clip"/>
 </p>
