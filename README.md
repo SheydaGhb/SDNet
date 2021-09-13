@@ -61,7 +61,7 @@ SDNet also is used for estimating AWGN sigma value by calculating median of the 
 ![awgn_pic](https://user-images.githubusercontent.com/31028574/132997703-6c6ac331-b01d-4b63-a34b-c2a0a07eae9d.PNG)
 
  <p align="center">
-<i> One test image is contaminated by non-clipped AWGN with σ = 3,5,7,10,15,20,30,50 and 75, relative error for methods of is reported</i>
+<i> One test image is contaminated by non-clipped AWGN with σ = 3,5,7,10,15,20,30,50 and 75, relative errors for methods of SDNet, PCA and IEDD are reported</i>
 </p>
 
 
