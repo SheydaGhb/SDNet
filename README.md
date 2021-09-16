@@ -20,7 +20,7 @@ MATLAB 2021
 ### Tetsing ###
 For estimating  sigma-map of a single noisy image run ``` Demo.m ``` <br />
 You can find mat files of ground truth test images in <i>testset_rgb</i> and <i>testset_grayscale</i> folders <br />
-Groud truth sigma maps can be found in <i>ground_true_sigma_map</i>. you can use ground truth sigma maps to create noisy images. See the example in  ``` Demo.m ```
+Groud truth sigma maps can be found in <i>ground_true_sigma_maps</i>. you can use ground truth sigma maps to create noisy images. See the example in  ``` Demo.m ```
 
 ## Sigma-map estimation results ##
 
