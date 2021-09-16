@@ -83,8 +83,7 @@ In addition to ground truth sigma-maps, we have created random sigma-maps to tes
 ## BM3D denoising example ##
 Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform denoising, e.g. BM3D[5]. For denoising, we divide noisy image to sigma map and result image is called equalized image, which is believed to have AWGN distbution. Therefore, BM3D can easily remove equalized image noise and after de-equalization, denoised image is achieved. 
 
-![BM3D_chain_pic](https://user-images.githubusercontent.com/31028574/132998898-b52e67c3-5fd5-44e6-9d3e-890df3556d94.PNG)
-
+![BM3D_chain_pic](https://user-images.githubusercontent.com/31028574/133612352-89257c51-20a8-4aef-8950-06a577e43c77.PNG)
  <p align="center">
 <i> Flow chart of denoising by sigma-map and BM3D  </i>
 </p>
