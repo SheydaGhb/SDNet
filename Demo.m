@@ -23,7 +23,7 @@ figure, imshow(estimated_sigma_map,[])
 title('Estimated sigma map')
 
 
-%% claculate relative error of estimation
+%% calculate relative error of estimation
  re0= mean(true_sigma_map(:).^2);
  re= mymse(estimated_sigma_map,true_sigma_map);
   
