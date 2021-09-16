@@ -163,15 +163,3 @@ lgraph = connectLayers(lgraph,'Add_117','Add_121/in2');
 
 sdnet=dlnetwork(lgraph);
 
-NumIt = 100000;  % number of iterations
-initialLearnRate = 0.00001;
-decay = 0.00001;
-
-loss_save = zeros(1,NumIt);
-loss_ver = [];
-averageGrad = []; averageSqGrad = [];
-iteration = 0;
-nbest=0;
-
-save('sdnet_rgb.mat','sdnet','averageGrad','averageSqGrad','iteration','loss_save','initialLearnRate','decay','loss_ver','nbest');
-
