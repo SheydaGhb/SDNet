@@ -9,9 +9,10 @@
 ![pic1](https://user-images.githubusercontent.com/31028574/132021861-0cbd4ba0-31d4-46c9-9ede-79c67e496010.PNG)
         
   ### Network structure ###
-  Run ``` sdnet_rgb_structure.m ```  and ``` sdnet_gray_structure.m ``` for observing structure of network in detail and layers. <i> AnalyzeNetwork </i> tool of MATLAB can be used for furthur analysis.
+  Run ``` sdnet_rgb_structure.m ```  and ``` sdnet_gray_structure.m ``` to create initial structures of SDNet both for rgb and gray scale input images. <br />
+  Run ``` visulaize_sdnet.m ``` to visualize network structure and see layers in detail.
         
-There are two models available one for estimating sigma-map of grayscale images and the other one for rgb color images. Here is the link to pre-trained SDNet models [pre-trained gary scale](https://webpages.tuni.fi/imaging/sdnet/sdnet_gray.mat) and [pre-trained rgb](https://webpages.tuni.fi/imaging/sdnet/sdnet_rgb.mat)
+There are two models available one for estimating sigma-map of grayscale images and the other one for rgb color images. Here is the link to pre-trained SDNet models [pre-trained gray scale](https://webpages.tuni.fi/imaging/sdnet/sdnet_gray.mat) and [pre-trained rgb](https://webpages.tuni.fi/imaging/sdnet/sdnet_rgb.mat)
 
 ### Requirements ###
 MATLAB 2021
@@ -66,7 +67,7 @@ SDNet also is used for estimating AWGN sigma value by calculating median of the 
 
 
 ## Denoising  examples ##
-In addition to ground truth sigma-maps, we have created random sigma-maps to test SDNet estimator and its efficiency in denoising. Denoising is performed by DRUNet, both by true sigma-map and estimated sigma-map by SDNet.<br />
+In addition to ground truth sigma-maps, we have created random sigma-maps to test SDNet estimator and its efficiency in denoising. Denoising is performed by DRUNet[6], both by true sigma-map and estimated sigma-map by SDNet.<br />
 ![process_chain](https://user-images.githubusercontent.com/31028574/133067025-e44a2c37-4108-418d-be57-b1793ec9e8d3.PNG)
  <p align="center">
 <i> Flow chart of denoising by true and estimated sigma-map and DRUNet. σ<sub>av</sub> = 15   </i>
@@ -92,4 +93,5 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 [2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.<br />
 [3] S. G. Bahncmiri, M. Ponomarenko, and K. Egiazarian, “Deep convolutional autoencoder for estimation of nonstationary noise in images,” in 2019 8th European Workshop on Visual Information Processing (EUVIP). IEEE, 2019, pp. 238–243 <br />
 [4] Yue, H. Yong, Q. Zhao, L. Zhang, and D. Meng, “Variational denoising network: Toward blind noise modeling and removal,” arXiv preprint arXiv:1908.11314, 2019.<br />
-[5] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007
+[5] K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-d transform-domain collaborative ﬁltering,” IEEE Transactions on image processing, vol. 16, no. 8, pp. 2080–2095, 2007 <br />
+[6] K. Zhang, Y. Li, W. Zuo, L. Zhang, L. Van Gool, and R. Timofte, “Plug-and-play  image  restoration  with  deep  denoiser  prior,”arXiv  preprintarXiv:2008.13751, 2020.
