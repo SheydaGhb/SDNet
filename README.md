@@ -87,6 +87,14 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
  <p align="center">
 <i> Flow chart of denoising by sigma-map and BM3D  </i>
 </p>
+
+## Full size example of noise map estimation ##
+
+
+![im_noisy_17_rgb](https://user-images.githubusercontent.com/31028574/152063936-7ab8ff27-aea1-4aef-80b0-a9b02c332b99.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064068-38a73cd1-9b24-488e-9c31-e132cf0ae75b.png) | 
+![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064129-b80620af-6832-4541-9a0a-d00f8c755893.png)
+
+
  
 [1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.<br />
 [2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.<br />
