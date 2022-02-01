@@ -90,10 +90,9 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 
 ## Full size example of noise map estimation ##
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![im_noisy_17_rgb](https://user-images.githubusercontent.com/31028574/152063936-7ab8ff27-aea1-4aef-80b0-a9b02c332b99.png)  |  ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064068-38a73cd1-9b24-488e-9c31-e132cf0ae75b.png)
-
+Solarized dark             |  Solarized Ocean          |  Solarized Ocean
+:-------------------------:|:-------------------------:|:-------------------------:
+![im_noisy_17_rgb](https://user-images.githubusercontent.com/31028574/152063936-7ab8ff27-aea1-4aef-80b0-a9b02c332b99.png)  |  ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064068-38a73cd1-9b24-488e-9c31-e132cf0ae75b.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064633-b94a4bc4-d4c5-472b-a38d-1f934edef966.png)
 
  
 [1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.<br />
