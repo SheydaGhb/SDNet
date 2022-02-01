@@ -90,12 +90,12 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 
 ## Full size example of noise map estimation ##
 
-Noisy image (rgb)          |  ground ruth noise map    |  estimated noise map by SDNet
+Noisy image (rgb)          |  Ground ruth noise map    |  Estimated noise map by SDNet
 :-------------------------:|:-------------------------:|:-------------------------:
 ![im_noisy_17_rgb](https://user-images.githubusercontent.com/31028574/152063936-7ab8ff27-aea1-4aef-80b0-a9b02c332b99.png)  |  ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064068-38a73cd1-9b24-488e-9c31-e132cf0ae75b.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064633-b94a4bc4-d4c5-472b-a38d-1f934edef966.png)
 
 
-Noisy image (gray scale)   |  ground ruth noise map    |  estimated noise map by SDNet
+Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by SDNet
 :-------------------------:|:-------------------------:|:-------------------------:
 ![im_noisy_7_grscale](https://user-images.githubusercontent.com/31028574/152064751-57db05a5-138b-4ddb-876d-a470ac9961c2.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064779-a26883b6-7a88-4b18-b6d0-e34d75b355d6.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064798-cfe064d2-820a-45be-9473-cc1fbcd57134.png)
 
