@@ -103,9 +103,9 @@ Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by
 
 Noisy image                |  Estimated noise map by SDNet
 :-------------------------:|:-------------------------:
-![im1](https://user-images.githubusercontent.com/31028574/152116812-6bf19a33-45f6-41d7-be3a-eb7c7b1d8fb6.png)| ![map1](https://user-images.githubusercontent.com/31028574/152116842-49fc7a9b-8a05-4ece-ab48-d30369df0efa.png)
-|
-![im2](https://user-images.githubusercontent.com/31028574/152116907-6b935593-5015-45ed-bbc9-29cf8e276d27.png)| ![map2](https://user-images.githubusercontent.com/31028574/152116938-4f07e458-7748-43bc-95f8-5aa83a06614a.png)
+|![im1](https://user-images.githubusercontent.com/31028574/152116812-6bf19a33-45f6-41d7-be3a-eb7c7b1d8fb6.png)| ![map1](https://user-images.githubusercontent.com/31028574/152116842-49fc7a9b-8a05-4ece-ab48-d30369df0efa.png)|
+
+|![im2](https://user-images.githubusercontent.com/31028574/152116907-6b935593-5015-45ed-bbc9-29cf8e276d27.png)| ![map2](https://user-images.githubusercontent.com/31028574/152116938-4f07e458-7748-43bc-95f8-5aa83a06614a.png)|
 
 
 
