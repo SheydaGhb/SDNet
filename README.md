@@ -99,6 +99,16 @@ Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by
 :-------------------------:|:-------------------------:|:-------------------------:
 ![im_noisy_7_grscale](https://user-images.githubusercontent.com/31028574/152064751-57db05a5-138b-4ddb-876d-a470ac9961c2.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064779-a26883b6-7a88-4b18-b6d0-e34d75b355d6.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064798-cfe064d2-820a-45be-9473-cc1fbcd57134.png)
 
+## Noise map estimation for real-life examples  ##
+
+Noisy image (rgb)          |  Estimated noise map by SDNet
+:-------------------------:|:-------------------------:
+![im1](https://user-images.githubusercontent.com/31028574/152116812-6bf19a33-45f6-41d7-be3a-eb7c7b1d8fb6.png)| ![map1](https://user-images.githubusercontent.com/31028574/152116842-49fc7a9b-8a05-4ece-ab48-d30369df0efa.png)
+:-------------------------:|:-------------------------:
+![im2](https://user-images.githubusercontent.com/31028574/152116907-6b935593-5015-45ed-bbc9-29cf8e276d27.png)| ![map2](https://user-images.githubusercontent.com/31028574/152116938-4f07e458-7748-43bc-95f8-5aa83a06614a.png)
+
+
+
 
 [1]  V. V. Lukin, D. V. Fevralev, N. N. Ponomarenko, S. K. Abramov, O. B. Pogrebnyak, K. O. Egiazarian, and J. T. Astola, “Discrete cosine transform- based local adaptive ﬁltering of images corrupted by nonstationary noise,” Journal of Electronic Imaging, vol. 19, no. 2, p.023007, 2010.<br />
 [2] A. A. Shulev, A. Gotchev, A. Foi, and I. R. Roussev, “Threshold selection in transform-domain denoising of speckle pattern fringes,” in Holography 2005: International Conference on Holography, Optical Recording, and Processing of Information, vol. 6252. International Society for Optics and Photonics, 2006, p. 625220.<br />
