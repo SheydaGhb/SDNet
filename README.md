@@ -100,7 +100,7 @@ Noisy image (gray scale)   |  Ground truth noise map    |  Estimated noise map b
 ![im_noisy_7_grscale](https://user-images.githubusercontent.com/31028574/152064751-57db05a5-138b-4ddb-876d-a470ac9961c2.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064779-a26883b6-7a88-4b18-b6d0-e34d75b355d6.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064798-cfe064d2-820a-45be-9473-cc1fbcd57134.png)
 
 ## Noise map estimation for real-life examples  ##
-Results of SDNet on estimation of real-life images are illustrated in below. Since camera parameters (we have calibrated the camera) and shooting parameters (ISO) are known, we have the ground truth sigma map for image. Variance for Poisson noise is equal to ground truth pixel value, but ground truth pixel values are not available and we only have noisy pixel values. Therefoe, ground truth sigma map is an approximate noisy ground truth sigma map (calculated on based on noisy pixels) 
+Results of SDNet on estimation of real-life images are illustrated in below. Since camera parameters (we have calibrated the camera) and shooting parameters (ISO) are known, we have the ground truth sigma map for image. Variance for Poisson noise is equal to ground truth pixel value, but ground truth pixel values are not available and we only have noisy pixel values. Therefore, ground truth sigma map is an approximate noisy ground truth sigma map (calculated on based on noisy pixels) 
 
 
 Noisy image                |  Ground truth noise map    |  Estimated noise map by SDNet
