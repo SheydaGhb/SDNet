@@ -100,12 +100,13 @@ Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by
 ![im_noisy_7_grscale](https://user-images.githubusercontent.com/31028574/152064751-57db05a5-138b-4ddb-876d-a470ac9961c2.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064779-a26883b6-7a88-4b18-b6d0-e34d75b355d6.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064798-cfe064d2-820a-45be-9473-cc1fbcd57134.png)
 
 ## Noise map estimation for real-life examples  ##
+Results of SDNet on estimation of real-life images are illustrated in below. Since camera parameters (we have calibrated the camera) and shooting parameters (ISO) are known, we have the ground truth sigma map for image. Variance for Poisson noise is equal to ground truth pixel value, but ground truth pixel values are not available and we only have noisy pixel values. Therefoe, ground truth sigma map is an approximate noisy ground truth sigma map (calculated on based on noisy pixels) 
 
-Noisy image                |  Estimated noise map by SDNet
-:-------------------------:|:-------------------------:
-|![im1](https://user-images.githubusercontent.com/31028574/152116812-6bf19a33-45f6-41d7-be3a-eb7c7b1d8fb6.png)| ![map1](https://user-images.githubusercontent.com/31028574/152116842-49fc7a9b-8a05-4ece-ab48-d30369df0efa.png)|
-|![im2](https://user-images.githubusercontent.com/31028574/152116907-6b935593-5015-45ed-bbc9-29cf8e276d27.png)| ![map2](https://user-images.githubusercontent.com/31028574/152116938-4f07e458-7748-43bc-95f8-5aa83a06614a.png)|
 
+Noisy image                |  Ground ruth noise map    |  Estimated noise map by SDNet
+:-------------------------:|:-------------------------:|:-------------------------:
+|![real1](https://user-images.githubusercontent.com/31028574/152148028-78feaf95-4fe2-4f73-80de-fbd06223da16.png)|![real1_sigma_true](https://user-images.githubusercontent.com/31028574/152148078-5809e9f4-eaf5-4b2f-bcc5-4e363e0c5a49.png)|![real1_sigma_est](https://user-images.githubusercontent.com/31028574/152148113-485fc8e0-81df-4fe4-b5fa-e39d74fa7f8f.png)
+|![real2](https://user-images.githubusercontent.com/31028574/152148178-a0fddd3f-c517-442f-acf4-ea693a950214.png)|![real2_sigma_true](https://user-images.githubusercontent.com/31028574/152148201-ec6c4612-b053-487f-9479-c1eceef3806a.png)|![real2_sigma_est](https://user-images.githubusercontent.com/31028574/152148217-5a6a15f4-ba2c-405d-ba36-6e7dbf92f87d.png)
 
 
 
