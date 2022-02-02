@@ -90,12 +90,12 @@ Conventionl denoisers that remove AWGN can also utilize sigma-maps to perform de
 
 ## Full size example of noise map estimation ##
 
-Noisy image (rgb)          |  Ground ruth noise map    |  Estimated noise map by SDNet ε<sub>m</sub> = 0.0402
+Noisy image (rgb)          |  Ground truth noise map    |  Estimated noise map by SDNet ε<sub>m</sub> = 0.0402
 :-------------------------:|:-------------------------:|:-------------------------:
 ![im_noisy_17_rgb](https://user-images.githubusercontent.com/31028574/152063936-7ab8ff27-aea1-4aef-80b0-a9b02c332b99.png)  |  ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064068-38a73cd1-9b24-488e-9c31-e132cf0ae75b.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064633-b94a4bc4-d4c5-472b-a38d-1f934edef966.png)
 
 
-Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by SDNet ε<sub>m</sub> = 0.0821
+Noisy image (gray scale)   |  Ground truth noise map    |  Estimated noise map by SDNet ε<sub>m</sub> = 0.0821
 :-------------------------:|:-------------------------:|:-------------------------:
 ![im_noisy_7_grscale](https://user-images.githubusercontent.com/31028574/152064751-57db05a5-138b-4ddb-876d-a470ac9961c2.png) | ![smap_grtruth](https://user-images.githubusercontent.com/31028574/152064779-a26883b6-7a88-4b18-b6d0-e34d75b355d6.png) | ![estimated_sigma_map](https://user-images.githubusercontent.com/31028574/152064798-cfe064d2-820a-45be-9473-cc1fbcd57134.png)
 
@@ -103,7 +103,7 @@ Noisy image (gray scale)   |  Ground ruth noise map    |  Estimated noise map by
 Results of SDNet on estimation of real-life images are illustrated in below. Since camera parameters (we have calibrated the camera) and shooting parameters (ISO) are known, we have the ground truth sigma map for image. Variance for Poisson noise is equal to ground truth pixel value, but ground truth pixel values are not available and we only have noisy pixel values. Therefoe, ground truth sigma map is an approximate noisy ground truth sigma map (calculated on based on noisy pixels) 
 
 
-Noisy image                |  Ground ruth noise map    |  Estimated noise map by SDNet
+Noisy image                |  Ground truth noise map    |  Estimated noise map by SDNet
 :-------------------------:|:-------------------------:|:-------------------------:
 |![real1](https://user-images.githubusercontent.com/31028574/152148028-78feaf95-4fe2-4f73-80de-fbd06223da16.png)|![real1_sigma_true](https://user-images.githubusercontent.com/31028574/152148078-5809e9f4-eaf5-4b2f-bcc5-4e363e0c5a49.png)|![real1_sigma_est](https://user-images.githubusercontent.com/31028574/152148113-485fc8e0-81df-4fe4-b5fa-e39d74fa7f8f.png)
 |![real2](https://user-images.githubusercontent.com/31028574/152148178-a0fddd3f-c517-442f-acf4-ea693a950214.png)|![real2_sigma_true](https://user-images.githubusercontent.com/31028574/152148201-ec6c4612-b053-487f-9479-c1eceef3806a.png)|![real2_sigma_est](https://user-images.githubusercontent.com/31028574/152148217-5a6a15f4-ba2c-405d-ba36-6e7dbf92f87d.png)
