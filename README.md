@@ -109,18 +109,20 @@ Since camera parameters (we have calibrated the camera) and shooting parameters 
 Estimated sigma map is predicted by SDNet additionally trained on image patches distorted by Poisson noise and on image patches distorted by multiplicative Gaussian noises.  The pre-trained model is available on [pre-trained grayscale poisson](https://webpages.tuni.fi/imaging/sdnet/sdnet_gray_poisson.mat)
 
 
-Noisy image                |  Ground truth sigma map    |  Estimated sigma map by SDNet
+Noisy image                |  Ground truth sigma map   |  Estimated sigma map by SDNet
 :-------------------------:|:-------------------------:|:-------------------------:
 |![real1](https://user-images.githubusercontent.com/31028574/152148028-78feaf95-4fe2-4f73-80de-fbd06223da16.png)|![real1_sigma_true](https://user-images.githubusercontent.com/31028574/152148078-5809e9f4-eaf5-4b2f-bcc5-4e363e0c5a49.png)|![real1_sigma_est](https://user-images.githubusercontent.com/31028574/152148113-485fc8e0-81df-4fe4-b5fa-e39d74fa7f8f.png)
 |![real2](https://user-images.githubusercontent.com/31028574/152148178-a0fddd3f-c517-442f-acf4-ea693a950214.png)|![real2_sigma_true](https://user-images.githubusercontent.com/31028574/152148201-ec6c4612-b053-487f-9479-c1eceef3806a.png)|![real2_sigma_est](https://user-images.githubusercontent.com/31028574/152148217-5a6a15f4-ba2c-405d-ba36-6e7dbf92f87d.png)
 
-## Full size illustrations of noisy and denoised images  ##
+## Full size illustration of noisy and denoised images  ##
 
-Noisy image , PSNR = 24.9     |  Denoised image by  CBDNet , PSNR = 32.57 
+  Ground truthimage        | Noisy image , PSNR = 24.9 
 :-------------------------:|:-------------------------:| 
-![ff279](https://user-images.githubusercontent.com/31028574/152358062-09833848-7e13-4e46-9313-e4c7f4d39fb6.png) | ![denoisde_cbdnet_15_color](https://user-images.githubusercontent.com/31028574/152358593-c1689461-df73-4463-8210-591c8b900b5c.png)|
-| **Denoised image by VDNet , PSNR = 34.79** |  **Denoised image by SDNet+DRUNet , PSNR = 34.97**
-![denoisde_vdnet_15_color](https://user-images.githubusercontent.com/31028574/152358758-953adefa-18fd-45b3-a59c-c8c259fe62eb.png) |![sdnet_drunet](https://user-images.githubusercontent.com/31028574/152358800-3d836997-f0f3-4f18-896e-107991c314f7.png)
+![clean_im](https://user-images.githubusercontent.com/31028574/152368094-529aba7e-a191-41f7-8b64-8acd690bd9a6.png)| ![ff279](https://user-images.githubusercontent.com/31028574/152358062-09833848-7e13-4e46-9313-e4c7f4d39fb6.png)|
+|**Denoised image by  CBDNet , PSNR = 32.57**   |  **Denoised image by VDNet , PSNR = 34.79** 
+![denoisde_cbdnet_15_color](https://user-images.githubusercontent.com/31028574/152358593-c1689461-df73-4463-8210-591c8b900b5c.png) | ![denoisde_vdnet_15_color](https://user-images.githubusercontent.com/31028574/152358758-953adefa-18fd-45b3-a59c-c8c259fe62eb.png) |
+|**Denoised image by SDNet+DRUNet , PSNR = 34.97**  | -
+![sdnet_drunet](https://user-images.githubusercontent.com/31028574/152358800-3d836997-f0f3-4f18-896e-107991c314f7.png) |
 
 ##  Our two noise-free image databases ##
 Tampere17 image set of noise-free images is available  [here](https://webpages.tuni.fi/imaging/tampere17/)<br />
