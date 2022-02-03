@@ -117,7 +117,7 @@ Noisy image                |  Ground truth sigma map    |  Estimated sigma map b
 
 ##  Our two noise-free image databases ##
 
-Link to Tampere17 image set of noise-free images [here](https://webpages.tuni.fi/imaging/tampere17/)
+Link to Tampere17 image set of noise-free images [here](https://webpages.tuni.fi/imaging/tampere17/)<br />
 Link to Tampere21 image set of noise-free images [here](https://webpages.tuni.fi/imaging/tampere21/)
 
 
