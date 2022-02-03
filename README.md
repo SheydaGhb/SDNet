@@ -116,7 +116,7 @@ Noisy image                |  Ground truth sigma map   |  Estimated sigma map by
 
 ## Full size illustration of noisy and denoised images  ##
 
-  Ground truthimage        | Noisy image , PSNR = 24.9 
+  Ground truth image        | Noisy image , PSNR = 24.9 
 :-------------------------:|:-------------------------:| 
 ![clean_im](https://user-images.githubusercontent.com/31028574/152368094-529aba7e-a191-41f7-8b64-8acd690bd9a6.png)| ![ff279](https://user-images.githubusercontent.com/31028574/152358062-09833848-7e13-4e46-9313-e4c7f4d39fb6.png)|
 |**Denoised image by  CBDNet , PSNR = 32.57**   |  **Denoised image by VDNet , PSNR = 34.79** 
