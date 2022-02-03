@@ -118,9 +118,9 @@ Noisy image                |  Ground truth sigma map    |  Estimated sigma map b
 
 Noisy image                |  Denoised image by  CBDNet   
 :-------------------------:|:-------------------------:| 
+|:-------------------------: |:-------------------------:|
 ![ff279](https://user-images.githubusercontent.com/31028574/152358062-09833848-7e13-4e46-9313-e4c7f4d39fb6.png) | ![denoisde_cbdnet_15_color](https://user-images.githubusercontent.com/31028574/152358593-c1689461-df73-4463-8210-591c8b900b5c.png)|
 |  Denoised image by VDNet |  Denoised image by SDNet+DRUNet
-|:-------------------------: |:-------------------------:
 ![denoisde_vdnet_15_color](https://user-images.githubusercontent.com/31028574/152358758-953adefa-18fd-45b3-a59c-c8c259fe62eb.png) |
 ![sdnet_drunet](https://user-images.githubusercontent.com/31028574/152358800-3d836997-f0f3-4f18-896e-107991c314f7.png)
 
