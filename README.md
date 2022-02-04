@@ -106,8 +106,6 @@ Noisy image here is a blue channel of mosaic Bayer CFA image (RAW image produced
 
 Since camera parameters (we have calibrated the camera) and shooting parameters (ISO) are known, we have the ground truth sigma map for image. Variance for Poisson noise is equal to ground truth pixel value, but ground truth pixel values are not available and we only have noisy pixel values. Therefore, ground truth sigma map is an approximate noisy ground truth sigma map (calculated based on noisy pixels).
 
-Estimated sigma map is predicted by SDNet additionally trained on image patches distorted by Poisson noise and on image patches distorted by multiplicative Gaussian noises.  The pre-trained model is available on [pre-trained grayscale poisson](https://webpages.tuni.fi/imaging/sdnet/sdnet_gray_poisson.mat)
-
 
 Noisy image                |  Ground truth sigma map   |  Estimated sigma map by SDNet
 :-------------------------:|:-------------------------:|:-------------------------:
