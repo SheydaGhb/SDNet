@@ -1,7 +1,7 @@
 # SDNet
 
-# Learning Based Noise Component Map Estimation for Image Denoising , [link to the paper](https://ieeexplore.ieee.org/abstract/document/9763034?casa_token=-G3d0PCnVzcAAAAA:7NldhfSbrB5cDLljS4Kb-vGh9M45GTATLzfEi2nj3U4ZkwvZ6w-cmD8fjMEPcOKKlc7-RfMLDdUFlz8)
-Sheyda Ghanbaralizadeh Bahnemiri; Mykola Ponomarenko; Karen Egiazarian
+# Learning Based Noise Component Map Estimation for Image Denoising , [link to the paper](https://ieeexplore.ieee.org/abstract/document/9763034?casa_token=-G3d0PCnVzcAAAAA:7NldhfSbrB5cDLljS4Kb-vGh9M45GTATLzfEi2nj3U4ZkwvZ6w-cmD8fjMEPcOKKlc7-RfMLDdUFlz8) Sheyda Ghanbaralizadeh Bahnemiri; Mykola Ponomarenko; Karen Egiazarian
+
 
  ##  Abstract 
  Problem  of  image  denoising  when  images  are corrupted  by  a  non-stationary  noise  is  considered  in  this  paper. Since  in  practice  no  a  priori  information  on  noise  is  available, often   noise   statistics   should   be   estimated   before   applying   adenoising   method.   In   this   paper   a   method   of   estimation   of map  of  local,  patch-wise,  standard  deviations  of  noise  (so-calledsigma-map) is proposed. The method based on deep convolutional neural network shows state-of-the-art accuracy of estimation both sigma-map  for  non-stationary  noise  and  variance  for  additive white  Gaussian  noise.  Extensive  experiments  on  image  denoising  using  estimated  sigma-maps  demonstrate  that  our  methodout performs  state-of-the-art  blind  image  denoising  methods  (by up to 6 dB in PSNR) as well as other methods based on sigma-map estimation (up to 0.5 dB), providing better usage flexibility. Comparison  with  an  ideal  case  when  denoising  is  applied  with the ground-truth sigma-map shows that a difference in PSNR for most  of  noise  levels  is  0.1-0.2  dB  and  does  not  exceeds  0.6  db.
